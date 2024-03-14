@@ -30,7 +30,7 @@ export default function App() {
 
       <Text>Time</Text>
       <TextInput
-      placeholder="set you time in hours"
+      placeholder="set your time in hours"
       style={styles.input}
       value={time}
       placeholderTextColor='#999'
@@ -39,7 +39,7 @@ export default function App() {
 
       <Button
         style={styles.button}
-        title = 'efetuar login'
+        title = 'Calc'
         onPress={()=>calcOfDistance()}
       />
 
